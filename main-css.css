@@ -1,0 +1,375 @@
+
+/*header stuff*/
+body{
+	margin: 0 auto;
+}
+
+nav{
+	height: 55px;
+	background-color: #563535;
+}
+
+nav ul{
+	margin: 0;
+	padding: 18px 26px;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+nav ul li{
+	list-style-type:none;
+	display:inline-block;
+	color: #fff;
+	font-weight:bold;
+	font-family: big-caslon-fb,Georgia, serif;
+}
+nav ul li a:visited{
+	color:#fff;
+}
+nav ul li a{
+	width: 200px;
+	padding: 18px 25px;
+	text-decoration: none;
+
+}
+
+nav ul li a:hover{
+	color:#000;
+	background-color: #fff;
+	text-align: center;
+}
+
+h1{
+	max-width: 100%;
+	height:300px;
+	display: block;
+	background-image: url("../img/lightningtree-thumb.jpg");
+	background-size: cover;
+	background-color:#076009;
+	background-position: center;
+	text-align:center;
+	padding: 150px 30px 80px 0px;
+	margin: 0px;
+	font-family: big-caslon-fb, serif;
+	font-size: 62px;
+	color:#fff;
+	border-bottom:20px solid #5B5F56;
+}
+/*end header stuff*/
+
+
+
+
+
+h2{
+	font-family: big-caslon-fb, serif;
+	font-size:25px;
+	padding:10px;
+}
+p{
+	font-family:Georgia,serif;
+	padding:5px;
+	line-height: 2em;
+
+}
+h4{
+	font-weight:black;
+
+}
+a{
+text-decoration:none;
+
+}
+
+
+
+
+
+
+/*HOME*/
+.mid{
+	width:960px;
+	margin:0 auto;
+	text-align:center;
+}
+#green-box{
+	background-color:#79C092;
+	height: 500px;
+	display:flex;
+	flex-flow: row-wrap;
+	justify-content:space-between;
+	padding:50px
+}
+
+#mail img{
+	margin: 25px;
+	height: 50%;
+}
+#contact{
+	display:inline-block;
+	width:50%;
+	font-family: big-caslon-fb, serif;
+}
+#green-box h2{
+	font-weight:black;
+	font-size:35px;
+}
+#mid-white{
+	padding: 0px 20px;
+	border: 1px dashed #000
+	margin:10px;
+}
+.small-text{
+	text-align:center;
+	font-family: big-caslon-fb, serif;
+	font-style: italic;
+	margin:0 auto;
+	width:960px;
+}
+
+#flex-columns{
+	display:flex;
+	width:960px;
+	margin:0 auto;
+}
+.firstchar{
+	float:left;
+	color:#6D9074;
+	font-size: 75px;
+	line-height: 60px;
+	padding-top:4px;
+	padding-right:8px;
+	padding-left:3px;
+
+}
+h2.firstchar{
+	clear:both;
+	padding:0px;
+}
+
+#fimg{
+	width:600px;
+	margin:0 auto;
+
+}
+#mid-white p{
+	width:30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*GALLERY*/
+
+.flex-container{
+	display:flex;
+	flex-flow: row wrap;
+	align-items:center;
+
+}
+
+#home-boxes{
+		display:flex;
+}
+
+.gal-item{
+	width: 400px;
+	height: 400px;
+	margin:10px;
+	display:block;
+	padding: 20px;
+	border-radius: 5px;
+	border: 5px solid #bee2bf;
+	padding:0;
+}
+#illustration{
+	background-image:url(../img/immigrant-thumb.jpg);
+	background-position: left 400px;
+
+}
+#comic-pages{
+background-image: url("../img/endcard-thumb.jpg");
+background-position: center 400px;
+}
+#character-sheets{
+	background-image:url("../img/cerule-design-thumb.jpg");
+
+}
+#animation-samples{
+	background-image: url("../img/bby.jpg");
+	background-position: center 50px
+}
+#stickers{
+	background-image: url("../img/yatochibi-web.png");
+	background-position: center 400px;
+}
+#stickers img{
+	width:50%;
+}
+
+#animated-shorts{
+	background-image: url("../img/hades-and-perse-5-thumb2.jpg");
+	background-position:center 10px;
+
+}
+
+.flex-container h4{
+	color: #fff;
+	background-color:rgba(0,91,95, 0.75);
+	height:380px;
+	opacity:0.0;
+	margin:0 auto;
+	padding:10px 100px;
+	font-family: big-caslon-fb,Georgia, serif;
+	font-size:20px;
+
+
+}
+.flex-container h4:hover{
+	opacity: 1;
+	transition: .5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*GALLERY PLUS*/
+
+#bbtitle{
+	padding:20px;
+	border-bottom: 1px solid #000;
+	text-align:center;
+	width:800px;
+	margin:10px auto;
+
+}
+#display-title{
+	background-color:#79C092;
+	height:100px;
+	width:960px;
+	margin:0 auto;
+	font-family: big-caslon-fb, serif;
+
+}
+#display-img{
+	width:960px;
+	margin:0 auto;
+	padding-top:20px;
+}
+#description-box{
+	width:960px;
+	margin:0 auto;
+}
+
+#description-box p{
+	width:860px;
+	padding:10px 50px;
+	font-family: big-caslon-fb, serif;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*RESUME*/
+
+
+#subhead{
+	text-transform: uppercase;
+	font-family: Helvetica, Futura, sans-serif;
+	color:#7a7a7a;
+	text-align: center;
+	padding-bottom: 40px;
+	line-height: 1em
+}
+#stuff{
+	border: 1px solid #000;
+	margin:20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+footer{
+	height:100px;
+	background-color: #563535;
+}
+
+/*footer img{
+	height:400px;
+}*/
+footer nav{
+	background-color: rgba(0,0,0,0);
+	width:70%;
+	margin:20 auto;
+	padding-left:35%;
+	padding-top:25px;
+}
+footer nav ul{
+	display:inline-block;
+	margin:0 auto;
+}
