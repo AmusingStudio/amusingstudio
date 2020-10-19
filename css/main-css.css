@@ -489,6 +489,39 @@ background-position: center 400px;
 	margin:0 auto;
 	padding: 0px;
 }
+
+
+#ref-imgs{
+	background-image: url("../img/chick_egg.png");
+	background-position: center;
+	background-size: 200%;
+}
+
+#storyboards{
+	background-image: url("../img/storyboard.png");
+	background-position: center;
+	background-size: 150%;
+}
+#animatic{
+	background-image: url("../img/animatic-thumb.png");
+	background-position: center;
+	background-size: 150%;
+}
+#models{
+	background-image: url("../img/model-thumb.png");
+	background-position: center;
+	background-size: 150%;
+}
+#rigs{
+	background-image: url("../img/chick_egg.png");
+	background-position: center;
+	background-size: 200%;
+}
+#animation-test{
+	background-image: url("../img/chick_egg.png");
+	background-position: center;
+	background-size: 200%;
+}
 /*
 #chick-filler{
 	background-image: url("../img/chick-filler.jpg");
