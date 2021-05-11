@@ -238,7 +238,7 @@ background-position: center 400px;
 
 }
 #animation-samples{
-	background-image: url("../img/groggy-face.png");
+	background-image: url("../img/fish-tank.png");
 	background-position: center 400px
 }
 #stickers{
@@ -258,6 +258,10 @@ background-position: center 400px;
 	background-image: url("../img/movie-poster.png");
 	background-position:center 10px;
 
+}
+#rigging{
+	background-image: url("../img/groggy-face.png");
+	background-position: center 400px
 }
 
 .flex-container h4{
