@@ -254,6 +254,11 @@ background-position: center 400px;
 	background-position:center 10px;
 
 }
+#compositing{
+	background-image: url("../img/movie-poster.png");
+	background-position:center 10px;
+
+}
 
 .flex-container h4{
 	color: #fff;
