@@ -256,12 +256,12 @@ background-position: center 400px;
 }
 #compositing{
 	background-image: url("../img/movie-poster-thumb.png");
-	background-position:center 10px;
+	background-repeat: no-repeat
 
 }
 #rigging{
 	background-image: url("../img/rigging-thumb.png");
-	background-position: center 200px
+	background-repeat: no-repeat;
 }
 
 .flex-container h4{
