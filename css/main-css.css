@@ -239,7 +239,7 @@ background-position: center 400px;
 }
 #animation-samples{
 	background-image: url("../img/fish-tank-thumb.png");
-	background-position: center 400px
+	background-repeat: no-repeat;
 }
 #stickers{
 	background-image: url("../img/yatochibi-web.png");
