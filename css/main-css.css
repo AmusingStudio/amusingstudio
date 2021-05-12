@@ -255,12 +255,12 @@ background-position: center 400px;
 
 }
 #compositing{
-	background-image: url("../img/movie-poster.png");
+	background-image: url("../img/movie-poster-thumb.png");
 	background-position:center 10px;
 
 }
 #rigging{
-	background-image: url("../img/groggy-face.png");
+	background-image: url("../img/rigging-thumb.png");
 	background-position: center 200px
 }
 
