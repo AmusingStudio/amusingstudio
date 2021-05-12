@@ -264,6 +264,10 @@ background-position: center 400px;
 	background-repeat: no-repeat;
 }
 
+#modeling{
+	background-image: url("../img/modeling-thumb.png");
+	background-repeat: no-repeat;
+}
 .flex-container h4{
 	color: #fff;
 	background-color:rgba(0,91,95, 0.75);
