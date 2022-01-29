@@ -1,0 +1,577 @@
+
+/*header stuff*/
+body{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+nav{
+  height: 55px;
+  background-color: #0A0A0A;
+}
+
+nav ul{
+  margin: 0;
+  padding: 18px 26px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+nav ul li{
+  list-style-type:none;
+  display:inline-block;
+  color: #fff;
+  font-weight:bold;
+  font-family: big-caslon-fb,Georgia, serif;
+  font-variant-caps: small-caps;
+}
+nav ul li a:visited{
+  color:#fff;
+}
+nav ul li a{
+  width: 200px;
+  padding: 18px 25px;
+  text-decoration: none;
+
+}
+
+nav ul li a:hover{
+  color:#000;
+  background-color: #fff;
+  text-align: center;
+}
+
+h1{
+  max-width: 100%;
+  height:300px;
+  display: block;
+  background-image: url("../img/Website Banner.png");
+  background-size: cover;
+  background-color:rgba(22, 96, 77, .75);
+  background-position: center;
+  text-align:center;
+  padding: 150px 30px 80px 0px;
+  margin: 0px;
+  font-family: 'Kadwa', serif;
+  font-size: 50px;
+  color:#fff;
+  border-bottom:20px solid #5B5F56;
+
+}
+
+#subheader{
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+/*end header stuff*/
+
+
+
+
+
+/*Home Styling*/
+
+#welcome{
+  width: 900px;
+  height: 500px;
+  padding: 10px;
+  position: absolute;
+  margin: -650px 25% 0px 25%;
+  background-color: #fff;
+  box-shadow: 5px 5px 15px #333;
+
+
+
+}
+#welcome h2{
+  font-weight: bold;
+  font-size: 48px;
+  font-family: kadwa;
+  border-bottom: 3px solid gray ;
+  text-align: center;
+  margin: 10px;
+
+}
+#blurb{
+  height: 200px;
+  width: 600px;
+  padding: 15px;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 20px;
+}
+#art-directory-home{
+  height: 100px;
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+#art-directory-home a{
+  width: 250px;
+  height: 40px;
+  text-align: center;
+}
+
+.mid{
+  width:960px;
+  margin:0 auto;
+  text-align:center;
+}
+.green-box{
+  background-image: linear-gradient(173deg, #6e9075 70%,#5c5f56 calc(70% + 2px));
+  height: 300px;
+  display:flex;
+  flex-flow: row-wrap;
+  justify-content:space-between;
+  padding:50px;
+  margin: 0px auto;
+}
+.green-box2{
+  background-image: linear-gradient(45deg, #6e9075 70%,#5c5f56 95%, #0a0a0a, #fff calc(70% + 2px));
+  height: 600px;
+  width: 90%;
+  display:flex;
+  flex-flow: row-wrap;
+  padding:30px;
+  margin: 250px 5% 10px 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.green-box2 img{  
+  width: 770px;
+  height: auto;
+  
+}
+
+.green-box3{
+  background-image: linear-gradient(45deg, #6e9075 70%,#5c5f56 95%, #0a0a0a, #fff calc(70% + 2px));
+  height: 600px;
+  width: 90%;
+  display:flex;
+  flex-flow: row-wrap;
+  padding:30px;
+  margin: 50px 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.green-box3 img{  
+  width: 770px;
+  height: auto;
+  
+}
+
+
+
+.cta{
+  height: 350px;
+  width: 400px;
+  padding: 0px;
+  border: 2px #0a0a0a;
+}
+.cta h2{
+  font-family: kadwa;
+  font-size: 32px;
+  border-bottom: 3px solid #0a0a0a;
+}
+.cta .button{
+  margin: 0px auto;
+}
+
+ p.caption{
+  font-size: 16px;
+}
+
+.button{
+  width: 100px;
+  background-color: #0A0A0A;
+  height: 75px;
+  padding: 10px;
+  border-radius: 3px;
+  color: #d6d6d6;
+  font-family: kadwa;
+}
+
+.button:hover{
+  box-shadow: 2px 2px 3px #333, 5px 5px 3px #5c5f56;
+  transition: .15s ease;
+  color: #fff;
+}
+
+#mail img{
+  margin: 20px;
+  height: 225px;
+  width: 300px;
+}
+#contact{
+  display:flex;
+  width:250px;
+  font-family: kadwa, serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 16px
+}
+#green-box h2{
+  font-weight:black;
+  font-size:35px;
+}
+
+.green-box a{
+  margin: 5px;
+  color: #0a0a0a;
+  font-weight: bold;
+  font-family: kadwa,serif;
+}
+
+.green-box p{
+  margin: 5px;
+  color: #0a0a0a;
+  font-weight: bold;
+  font-family: kadwa,serif;
+}
+.black{
+  font-size: 20px;
+  text-decoration: underline;
+
+
+}
+
+.more{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+
+#mid-white{
+  padding: 0px 20px;
+  border: 1px dashed #000
+  margin:10px;
+  width: 100%;
+}
+.small-text{
+  text-align:center;
+  font-family: big-caslon-fb, serif;
+  font-style: italic;
+  margin:0 auto;
+  width:960px;
+}
+
+#flex-columns{
+  display:flex;
+  width:960px;
+  margin:0 auto;
+}
+.firstchar{
+  float:left;
+  color:#6D9074;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top:4px;
+  padding-right:8px;
+  padding-left:3px;
+
+}
+h2.firstchar{
+  clear:both;
+  padding:0px;
+}
+
+#fimg{
+  width:600px;
+  margin:0 auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2{
+  font-family: big-caslon-fb, serif;
+  font-size:25px;
+  padding:10px;
+}
+p{
+  font-family:Georgia,serif;
+  padding:5px;
+  line-height: 2em;
+
+}
+h4{
+  font-weight:black;
+
+}
+a{
+text-decoration:none;
+
+}
+
+
+
+
+
+
+
+/*Layout*/
+
+.astatement{
+  margin: 0 auto;
+  justify-content: center;
+}
+.divider2{
+  height: 25px;
+  width:80%;
+  margin:5px auto;
+  background-color:#6e9075;;
+}
+
+
+
+#ref-imgs{
+  background-image: url("../img/chick_egg.png");
+  background-position: center;
+  background-size: 200%;
+}
+
+#storyboards{
+  background-image: url("../img/storyboard.png");
+  background-position: center;
+  background-size: 150%;
+}
+#animatic{
+  background-image: url("../img/animatic-thumb.png");
+  background-position: center;
+  background-size: 150%;
+}
+#models{
+  background-image: url("../img/model-thumb.png");
+  background-position: center;
+  background-size: 150%;
+}
+#rigs{
+  background-image: url("../img/chick_egg.png");
+  background-position: center;
+  background-size: 200%;
+}
+#animation-test{
+  background-image: url("../img/chick_egg.png");
+  background-position: center;
+  background-size: 200%;
+}
+
+
+
+/*GALLERY PLUS*/
+
+.top-img-buffer{
+  height: 20px;
+  margin: 0;
+
+}
+
+#bbtitle{
+  padding:20px;
+  border-bottom: 1px solid #000;
+  text-align:center;
+  width:80%;
+  margin:5px auto;
+
+}
+#display-title{
+  background-color:#79C092;
+  height:100px;
+  width:80%;
+  margin:0 auto;
+  font-family: big-caslon-fb, serif;
+
+}
+#display-img{
+  width:960px;
+  margin:0 auto;
+  padding: 0px;
+}
+
+#display-img img{
+  width: 100%;
+}
+.bgwhite{
+  border: 2px solid #5c5f56;
+}
+#description-box{
+  width:960px;
+  margin:0 auto;
+}
+
+#description-box p{
+  width:860px;
+  padding:10px 50px;
+  font-family: big-caslon-fb, serif;
+  font-size: 20px;
+}
+
+.divider{
+  height: 15px;
+  width:960px;
+  margin:4px auto;
+  background-color:#5c5f56;
+}
+
+
+
+/*New Gallery Pages*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.column h3{
+	background-color: #563535;
+	height: 50px;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that float next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+
+}
+.splash-gal{
+	width: 80%;
+	margin: 10px auto;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+footer nav{
+  height: 55px;
+  background-color: #563535;
+}
+
+footer nav ul{
+  margin: 0;
+  padding: 18px 26px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer nav ul li{
+  list-style-type:none;
+  display:inline-block;
+  color: #fff;
+  font-weight:bold;
+  font-family: big-caslon-fb,Georgia, serif;
+  font-variant-caps: small-caps;
+}
+footer nav ul li a:visited{
+  color:#fff;
+}
+footer nav ul li a{
+  width: 200px;
+  padding: 18px 25px;
+  text-decoration: none;
+
+}
+
+footer nav ul li a:hover{
+  color:#000;
+  background-color: #fff;
+  text-align: center;
+}
